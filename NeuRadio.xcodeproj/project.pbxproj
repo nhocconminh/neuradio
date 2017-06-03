@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F78205D01EE28DED0074792A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78205CF1EE28DED0074792A /* AppDelegate.swift */; };
+		F78205D21EE28DED0074792A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78205D11EE28DED0074792A /* ViewController.swift */; };
+		F78205D51EE28DED0074792A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F78205D31EE28DED0074792A /* Main.storyboard */; };
+		F78205D71EE28DED0074792A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F78205D61EE28DED0074792A /* Assets.xcassets */; };
+		F78205DA1EE28DED0074792A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F78205D81EE28DED0074792A /* LaunchScreen.storyboard */; };
+		F78205E51EE28DED0074792A /* NeuRadioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78205E41EE28DED0074792A /* NeuRadioTests.swift */; };
+		F78205F01EE28DED0074792A /* NeuRadioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78205EF1EE28DED0074792A /* NeuRadioUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F78205E11EE28DED0074792A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F78205C41EE28DED0074792A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F78205CB1EE28DED0074792A;
+			remoteInfo = NeuRadio;
+		};
+		F78205EC1EE28DED0074792A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F78205C41EE28DED0074792A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F78205CB1EE28DED0074792A;
+			remoteInfo = NeuRadio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F78205CC1EE28DED0074792A /* NeuRadio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeuRadio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F78205CF1EE28DED0074792A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F78205D11EE28DED0074792A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F78205D41EE28DED0074792A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F78205D61EE28DED0074792A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F78205D91EE28DED0074792A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F78205DB1EE28DED0074792A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F78205E01EE28DED0074792A /* NeuRadioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeuRadioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F78205E41EE28DED0074792A /* NeuRadioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuRadioTests.swift; sourceTree = "<group>"; };
+		F78205E61EE28DED0074792A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F78205EB1EE28DED0074792A /* NeuRadioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeuRadioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F78205EF1EE28DED0074792A /* NeuRadioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuRadioUITests.swift; sourceTree = "<group>"; };
+		F78205F11EE28DED0074792A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F78205C91EE28DED0074792A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78205DD1EE28DED0074792A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78205E81EE28DED0074792A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F78205C31EE28DED0074792A = {
+			isa = PBXGroup;
+			children = (
+				F78205CE1EE28DED0074792A /* NeuRadio */,
+				F78205E31EE28DED0074792A /* NeuRadioTests */,
+				F78205EE1EE28DED0074792A /* NeuRadioUITests */,
+				F78205CD1EE28DED0074792A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F78205CD1EE28DED0074792A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F78205CC1EE28DED0074792A /* NeuRadio.app */,
+				F78205E01EE28DED0074792A /* NeuRadioTests.xctest */,
+				F78205EB1EE28DED0074792A /* NeuRadioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F78205CE1EE28DED0074792A /* NeuRadio */ = {
+			isa = PBXGroup;
+			children = (
+				F78205CF1EE28DED0074792A /* AppDelegate.swift */,
+				F78205D11EE28DED0074792A /* ViewController.swift */,
+				F78205D31EE28DED0074792A /* Main.storyboard */,
+				F78205D61EE28DED0074792A /* Assets.xcassets */,
+				F78205D81EE28DED0074792A /* LaunchScreen.storyboard */,
+				F78205DB1EE28DED0074792A /* Info.plist */,
+			);
+			path = NeuRadio;
+			sourceTree = "<group>";
+		};
+		F78205E31EE28DED0074792A /* NeuRadioTests */ = {
+			isa = PBXGroup;
+			children = (
+				F78205E41EE28DED0074792A /* NeuRadioTests.swift */,
+				F78205E61EE28DED0074792A /* Info.plist */,
+			);
+			path = NeuRadioTests;
+			sourceTree = "<group>";
+		};
+		F78205EE1EE28DED0074792A /* NeuRadioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F78205EF1EE28DED0074792A /* NeuRadioUITests.swift */,
+				F78205F11EE28DED0074792A /* Info.plist */,
+			);
+			path = NeuRadioUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F78205CB1EE28DED0074792A /* NeuRadio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F78205F41EE28DED0074792A /* Build configuration list for PBXNativeTarget "NeuRadio" */;
+			buildPhases = (
+				F78205C81EE28DED0074792A /* Sources */,
+				F78205C91EE28DED0074792A /* Frameworks */,
+				F78205CA1EE28DED0074792A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeuRadio;
+			productName = NeuRadio;
+			productReference = F78205CC1EE28DED0074792A /* NeuRadio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F78205DF1EE28DED0074792A /* NeuRadioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F78205F71EE28DED0074792A /* Build configuration list for PBXNativeTarget "NeuRadioTests" */;
+			buildPhases = (
+				F78205DC1EE28DED0074792A /* Sources */,
+				F78205DD1EE28DED0074792A /* Frameworks */,
+				F78205DE1EE28DED0074792A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F78205E21EE28DED0074792A /* PBXTargetDependency */,
+			);
+			name = NeuRadioTests;
+			productName = NeuRadioTests;
+			productReference = F78205E01EE28DED0074792A /* NeuRadioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F78205EA1EE28DED0074792A /* NeuRadioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F78205FA1EE28DED0074792A /* Build configuration list for PBXNativeTarget "NeuRadioUITests" */;
+			buildPhases = (
+				F78205E71EE28DED0074792A /* Sources */,
+				F78205E81EE28DED0074792A /* Frameworks */,
+				F78205E91EE28DED0074792A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F78205ED1EE28DED0074792A /* PBXTargetDependency */,
+			);
+			name = NeuRadioUITests;
+			productName = NeuRadioUITests;
+			productReference = F78205EB1EE28DED0074792A /* NeuRadioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F78205C41EE28DED0074792A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = minhvo;
+				TargetAttributes = {
+					F78205CB1EE28DED0074792A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6P784AZCKD;
+						ProvisioningStyle = Automatic;
+					};
+					F78205DF1EE28DED0074792A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6P784AZCKD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F78205CB1EE28DED0074792A;
+					};
+					F78205EA1EE28DED0074792A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6P784AZCKD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F78205CB1EE28DED0074792A;
+					};
+				};
+			};
+			buildConfigurationList = F78205C71EE28DED0074792A /* Build configuration list for PBXProject "NeuRadio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F78205C31EE28DED0074792A;
+			productRefGroup = F78205CD1EE28DED0074792A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F78205CB1EE28DED0074792A /* NeuRadio */,
+				F78205DF1EE28DED0074792A /* NeuRadioTests */,
+				F78205EA1EE28DED0074792A /* NeuRadioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F78205CA1EE28DED0074792A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78205DA1EE28DED0074792A /* LaunchScreen.storyboard in Resources */,
+				F78205D71EE28DED0074792A /* Assets.xcassets in Resources */,
+				F78205D51EE28DED0074792A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78205DE1EE28DED0074792A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78205E91EE28DED0074792A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F78205C81EE28DED0074792A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78205D21EE28DED0074792A /* ViewController.swift in Sources */,
+				F78205D01EE28DED0074792A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78205DC1EE28DED0074792A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78205E51EE28DED0074792A /* NeuRadioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78205E71EE28DED0074792A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78205F01EE28DED0074792A /* NeuRadioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F78205E21EE28DED0074792A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F78205CB1EE28DED0074792A /* NeuRadio */;
+			targetProxy = F78205E11EE28DED0074792A /* PBXContainerItemProxy */;
+		};
+		F78205ED1EE28DED0074792A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F78205CB1EE28DED0074792A /* NeuRadio */;
+			targetProxy = F78205EC1EE28DED0074792A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F78205D31EE28DED0074792A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F78205D41EE28DED0074792A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F78205D81EE28DED0074792A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F78205D91EE28DED0074792A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F78205F21EE28DED0074792A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F78205F31EE28DED0074792A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F78205F51EE28DED0074792A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6P784AZCKD;
+				INFOPLIST_FILE = NeuRadio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minhvo.NeuRadio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F78205F61EE28DED0074792A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6P784AZCKD;
+				INFOPLIST_FILE = NeuRadio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minhvo.NeuRadio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F78205F81EE28DED0074792A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6P784AZCKD;
+				INFOPLIST_FILE = NeuRadioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minhvo.NeuRadioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeuRadio.app/NeuRadio";
+			};
+			name = Debug;
+		};
+		F78205F91EE28DED0074792A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6P784AZCKD;
+				INFOPLIST_FILE = NeuRadioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minhvo.NeuRadioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeuRadio.app/NeuRadio";
+			};
+			name = Release;
+		};
+		F78205FB1EE28DED0074792A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6P784AZCKD;
+				INFOPLIST_FILE = NeuRadioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minhvo.NeuRadioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NeuRadio;
+			};
+			name = Debug;
+		};
+		F78205FC1EE28DED0074792A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6P784AZCKD;
+				INFOPLIST_FILE = NeuRadioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minhvo.NeuRadioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NeuRadio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F78205C71EE28DED0074792A /* Build configuration list for PBXProject "NeuRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F78205F21EE28DED0074792A /* Debug */,
+				F78205F31EE28DED0074792A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F78205F41EE28DED0074792A /* Build configuration list for PBXNativeTarget "NeuRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F78205F51EE28DED0074792A /* Debug */,
+				F78205F61EE28DED0074792A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F78205F71EE28DED0074792A /* Build configuration list for PBXNativeTarget "NeuRadioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F78205F81EE28DED0074792A /* Debug */,
+				F78205F91EE28DED0074792A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F78205FA1EE28DED0074792A /* Build configuration list for PBXNativeTarget "NeuRadioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F78205FB1EE28DED0074792A /* Debug */,
+				F78205FC1EE28DED0074792A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F78205C41EE28DED0074792A /* Project object */;
+}
