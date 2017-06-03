@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F78205CC1EE28DED0074792A /* NeuRadio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeuRadio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F78205CC1EE28DED0074792A /* Neu Radio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Neu Radio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F78205CF1EE28DED0074792A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F78205D11EE28DED0074792A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F78205D41EE28DED0074792A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F78205D61EE28DED0074792A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F78205D91EE28DED0074792A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F78205DB1EE28DED0074792A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F78205E01EE28DED0074792A /* NeuRadioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeuRadioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F78205E01EE28DED0074792A /* Neu RadioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Neu RadioTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F78205E41EE28DED0074792A /* NeuRadioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuRadioTests.swift; sourceTree = "<group>"; };
 		F78205E61EE28DED0074792A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F78205EB1EE28DED0074792A /* NeuRadioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeuRadioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F78205EB1EE28DED0074792A /* Neu RadioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Neu RadioUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F78205EF1EE28DED0074792A /* NeuRadioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuRadioUITests.swift; sourceTree = "<group>"; };
 		F78205F11EE28DED0074792A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,9 +87,9 @@
 		F78205CD1EE28DED0074792A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F78205CC1EE28DED0074792A /* NeuRadio.app */,
-				F78205E01EE28DED0074792A /* NeuRadioTests.xctest */,
-				F78205EB1EE28DED0074792A /* NeuRadioUITests.xctest */,
+				F78205CC1EE28DED0074792A /* Neu Radio.app */,
+				F78205E01EE28DED0074792A /* Neu RadioTests.xctest */,
+				F78205EB1EE28DED0074792A /* Neu RadioUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F78205CB1EE28DED0074792A /* NeuRadio */ = {
+		F78205CB1EE28DED0074792A /* Neu Radio */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F78205F41EE28DED0074792A /* Build configuration list for PBXNativeTarget "NeuRadio" */;
+			buildConfigurationList = F78205F41EE28DED0074792A /* Build configuration list for PBXNativeTarget "Neu Radio" */;
 			buildPhases = (
 				F78205C81EE28DED0074792A /* Sources */,
 				F78205C91EE28DED0074792A /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = NeuRadio;
+			name = "Neu Radio";
 			productName = NeuRadio;
-			productReference = F78205CC1EE28DED0074792A /* NeuRadio.app */;
+			productReference = F78205CC1EE28DED0074792A /* Neu Radio.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F78205DF1EE28DED0074792A /* NeuRadioTests */ = {
+		F78205DF1EE28DED0074792A /* Neu RadioTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F78205F71EE28DED0074792A /* Build configuration list for PBXNativeTarget "NeuRadioTests" */;
+			buildConfigurationList = F78205F71EE28DED0074792A /* Build configuration list for PBXNativeTarget "Neu RadioTests" */;
 			buildPhases = (
 				F78205DC1EE28DED0074792A /* Sources */,
 				F78205DD1EE28DED0074792A /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				F78205E21EE28DED0074792A /* PBXTargetDependency */,
 			);
-			name = NeuRadioTests;
+			name = "Neu RadioTests";
 			productName = NeuRadioTests;
-			productReference = F78205E01EE28DED0074792A /* NeuRadioTests.xctest */;
+			productReference = F78205E01EE28DED0074792A /* Neu RadioTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F78205EA1EE28DED0074792A /* NeuRadioUITests */ = {
+		F78205EA1EE28DED0074792A /* Neu RadioUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F78205FA1EE28DED0074792A /* Build configuration list for PBXNativeTarget "NeuRadioUITests" */;
+			buildConfigurationList = F78205FA1EE28DED0074792A /* Build configuration list for PBXNativeTarget "Neu RadioUITests" */;
 			buildPhases = (
 				F78205E71EE28DED0074792A /* Sources */,
 				F78205E81EE28DED0074792A /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				F78205ED1EE28DED0074792A /* PBXTargetDependency */,
 			);
-			name = NeuRadioUITests;
+			name = "Neu RadioUITests";
 			productName = NeuRadioUITests;
-			productReference = F78205EB1EE28DED0074792A /* NeuRadioUITests.xctest */;
+			productReference = F78205EB1EE28DED0074792A /* Neu RadioUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +210,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F78205C71EE28DED0074792A /* Build configuration list for PBXProject "NeuRadio" */;
+			buildConfigurationList = F78205C71EE28DED0074792A /* Build configuration list for PBXProject "Neu Radio" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -223,9 +223,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F78205CB1EE28DED0074792A /* NeuRadio */,
-				F78205DF1EE28DED0074792A /* NeuRadioTests */,
-				F78205EA1EE28DED0074792A /* NeuRadioUITests */,
+				F78205CB1EE28DED0074792A /* Neu Radio */,
+				F78205DF1EE28DED0074792A /* Neu RadioTests */,
+				F78205EA1EE28DED0074792A /* Neu RadioUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -288,12 +288,12 @@
 /* Begin PBXTargetDependency section */
 		F78205E21EE28DED0074792A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F78205CB1EE28DED0074792A /* NeuRadio */;
+			target = F78205CB1EE28DED0074792A /* Neu Radio */;
 			targetProxy = F78205E11EE28DED0074792A /* PBXContainerItemProxy */;
 		};
 		F78205ED1EE28DED0074792A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F78205CB1EE28DED0074792A /* NeuRadio */;
+			target = F78205CB1EE28DED0074792A /* Neu Radio */;
 			targetProxy = F78205EC1EE28DED0074792A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -419,6 +419,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6P784AZCKD;
 				INFOPLIST_FILE = NeuRadio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.minhvo.NeuRadio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -432,6 +433,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6P784AZCKD;
 				INFOPLIST_FILE = NeuRadio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.minhvo.NeuRadio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -450,7 +452,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.minhvo.NeuRadioTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeuRadio.app/NeuRadio";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neu Radio.app/Neu Radio";
 			};
 			name = Debug;
 		};
@@ -465,7 +467,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.minhvo.NeuRadioTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeuRadio.app/NeuRadio";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neu Radio.app/Neu Radio";
 			};
 			name = Release;
 		};
@@ -500,7 +502,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F78205C71EE28DED0074792A /* Build configuration list for PBXProject "NeuRadio" */ = {
+		F78205C71EE28DED0074792A /* Build configuration list for PBXProject "Neu Radio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F78205F21EE28DED0074792A /* Debug */,
@@ -509,7 +511,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F78205F41EE28DED0074792A /* Build configuration list for PBXNativeTarget "NeuRadio" */ = {
+		F78205F41EE28DED0074792A /* Build configuration list for PBXNativeTarget "Neu Radio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F78205F51EE28DED0074792A /* Debug */,
@@ -517,7 +519,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		F78205F71EE28DED0074792A /* Build configuration list for PBXNativeTarget "NeuRadioTests" */ = {
+		F78205F71EE28DED0074792A /* Build configuration list for PBXNativeTarget "Neu RadioTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F78205F81EE28DED0074792A /* Debug */,
@@ -525,7 +527,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		F78205FA1EE28DED0074792A /* Build configuration list for PBXNativeTarget "NeuRadioUITests" */ = {
+		F78205FA1EE28DED0074792A /* Build configuration list for PBXNativeTarget "Neu RadioUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F78205FB1EE28DED0074792A /* Debug */,

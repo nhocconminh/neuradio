@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F78205CB1EE28DED0074792A"
-               BuildableName = "NeuRadio.app"
-               BlueprintName = "NeuRadio"
-               ReferencedContainer = "container:NeuRadio.xcodeproj">
+               BuildableName = "Neu Radio.app"
+               BlueprintName = "Neu Radio"
+               ReferencedContainer = "container:Neu Radio.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F78205DF1EE28DED0074792A"
-               BuildableName = "NeuRadioTests.xctest"
-               BlueprintName = "NeuRadioTests"
-               ReferencedContainer = "container:NeuRadio.xcodeproj">
+               BuildableName = "Neu RadioTests.xctest"
+               BlueprintName = "Neu RadioTests"
+               ReferencedContainer = "container:Neu Radio.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F78205EA1EE28DED0074792A"
-               BuildableName = "NeuRadioUITests.xctest"
-               BlueprintName = "NeuRadioUITests"
-               ReferencedContainer = "container:NeuRadio.xcodeproj">
+               BuildableName = "Neu RadioUITests.xctest"
+               BlueprintName = "Neu RadioUITests"
+               ReferencedContainer = "container:Neu Radio.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F78205CB1EE28DED0074792A"
-            BuildableName = "NeuRadio.app"
-            BlueprintName = "NeuRadio"
-            ReferencedContainer = "container:NeuRadio.xcodeproj">
+            BuildableName = "Neu Radio.app"
+            BlueprintName = "Neu Radio"
+            ReferencedContainer = "container:Neu Radio.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F78205CB1EE28DED0074792A"
-            BuildableName = "NeuRadio.app"
-            BlueprintName = "NeuRadio"
-            ReferencedContainer = "container:NeuRadio.xcodeproj">
+            BuildableName = "Neu Radio.app"
+            BlueprintName = "Neu Radio"
+            ReferencedContainer = "container:Neu Radio.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F78205CB1EE28DED0074792A"
-            BuildableName = "NeuRadio.app"
-            BlueprintName = "NeuRadio"
-            ReferencedContainer = "container:NeuRadio.xcodeproj">
+            BuildableName = "Neu Radio.app"
+            BlueprintName = "Neu Radio"
+            ReferencedContainer = "container:Neu Radio.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
