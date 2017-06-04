@@ -10,5 +10,6 @@ target 'Neu Radio' do
   pod 'FacebookLogin'
   pod 'FacebookShare'
   pod 'SDWebImage'
+  pod 'RealmSwift'
 
 end

@@ -27,7 +27,7 @@ class MainNavigationViewController: UINavigationController {
         self.navigationBar.setBackgroundImage(UIImage(), for: .default)
         self.navigationBar.shadowImage = UIImage()
         self.navigationBar.barTintColor = UIColor.red_Youtube
-        self.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
+        self.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white,NSFontAttributeName: UIFont.RobotoMediumFont(ofSize: 15)]
         UIApplication.shared.statusBarStyle = .lightContent
     }
     

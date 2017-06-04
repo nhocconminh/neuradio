@@ -11,6 +11,11 @@ import UIKit
 class CoverFacebookTableViewCell: UITableViewCell {
 
     @IBOutlet weak var coverImageView: UIImageView!
+    @IBOutlet weak var avatarImageView: UIImageView!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var aboutLabel: UILabel!
+    @IBOutlet weak var numberOfLikesLabel: UILabel!
+    @IBOutlet weak var numberOfTalkingAboutThis: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

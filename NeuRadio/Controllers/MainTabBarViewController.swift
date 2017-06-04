@@ -12,6 +12,7 @@ class MainTabBarViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.tabBar.isTranslucent = false
         self.selectedIndex = 2
     }
 
